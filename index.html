@@ -76,11 +76,11 @@
 
     // Load Blog from Blogger JSON Feed
     async function loadBlog() {
-      const apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=https://blogahmadi.blogspot.com/feeds/posts/default&count=6';
+      const apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=https://blogahmadi.blogspot.com/feeds/posts/default';
       try {
         const res = await fetch(apiUrl);
         const data = await res.json();
-        const posts = data.items;
+        const posts = data.items.slice(0, 6); // ambil 6 teratas
         const container = document.getElementById('blog-posts');
   
         posts.forEach(post => {
@@ -99,6 +99,7 @@
       }
     }
 
+
     // Init
     loadProjects();
     loadBlog();
@@ -106,4 +107,5 @@
 
 </body>
 </html>
+
 
