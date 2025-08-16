@@ -1,698 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--===== Required meta tags =====-->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="author" content="Infinitysoftway" />
-	<meta name="description" content="statistic charts">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-	<!--===== Title =====-->
-	<title>Roni Ahmadi | Home</title>
-
-	<!--===== Favicon =====-->
-	<link rel="shortcut icon" href="images/favicon.ico" />
-
-	<!--===== Google fonts =====-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Jost:wght@300;400;500;600;700;800;900&display=swap">
-
-	<!--===== Global bootstrap required css =====-->
-	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-
-	<!--===== Global styles including: Font Icons, Plugins, etc =====-->
-  <link rel="stylesheet" href="css/font-awesome/all.min.css">
-  <link rel="stylesheet" href="css/feather/iconfont.css">
-  <link rel="stylesheet" href="css/pe-icon-stroke/Pe-icon-7-stroke.css">
-  <link rel="stylesheet" href="css/simple-line-icons/simple-line-icons.css">
-  <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="css/pe-icon-stroke/Pe-icon-7-stroke.css">
-	<link rel="stylesheet" href="css/swiper/swiper.min.css">
-	<link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
-  <link rel="stylesheet" href="css/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
-  
-	<!--===== Main theme css =====-->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!--===== Category demo css =====-->
-	<link rel="stylesheet" href="css/demo/personal.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roni Ahmadi - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-900 text-white">
 
-<body class="stokes-wrapper">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-bold">Roni Ahmadi</h1>
+    <p class="mt-4 text-xl text-red-400">Code Alchemist | Systems Hacker | Builder of Impossible Things</p>
+    <p class="mt-6 max-w-2xl text-gray-300">
+      I blend relentless curiosity with precise technical discipline — crafting backends, computer vision pipelines, and scalable deployments.
+    </p>
+    <div class="mt-8 flex space-x-4">
+      <a href="https://github.com/roniahmadi" class="px-6 py-3 bg-red-500 hover:bg-red-600 rounded-lg">GitHub</a>
+      <a href="mailto:roni@example.com" class="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-lg">Email Me</a>
+    </div>
+  </section>
 
-<!--========== 
-	Start of Header Section ==========-->
-<header class="header">
-	
-	<!--===== Start of navbar =====-->
-	<nav class="navbar navbar-light navbar-expand-lg navbar-default navbar-transparent navbar-text-dark">
-		<div class="container-fluid">
-			
-			<!--===== Start of logo =====-->
-			<a class="navbar-brand" href="/"> <img class="logo" src="images/logo.svg" alt=""> </a>
-			<!--===== End of logo =====-->
-
-			<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="icon-bar top-bar mt-0"></span>
-				<span class="icon-bar middle-bar"></span>
-				<span class="icon-bar bottom-bar"></span>
-			</button>
-
-			<!--===== Start of nav =====-->
-			<div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-				<ul class="navbar-nav">
-					<li class="nav-item dropdown mega-dropdown active">
-						<a class="nav-link dropdown-toggle" href="/" id="navbar-home" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="text-line">Home </span> </a>
-					</li>
-					<li class="nav-item dropdown mega-dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbar-home" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="text-line">Service </span> </a>
-					</li>
-					<li class="nav-item dropdown mega-dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbar-home" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="text-line">Blog </span> </a>
-					</li>
-				</ul>
-			</div>
-			<div class="navbar-icons list-unstyled mb-0 ms-auto">
-				<a class="icon" href="https://www.facebook.com/ahmad.ahmad.roni/"> <i class="feather icon-facebook"></i> </a>
-				<a class="icon" href="https://www.instagram.com/roniahmadi.id/"> <i class="feather icon-instagram"></i> </a>
-				<a class="icon" href="https://twitter.com/_roniahmadi"> <i class="feather icon-twitter"></i> </a>
-
-			</div>
-			<!--===== End of nav =====-->
-
-		</div>
-	</nav>
-	<!--===== End of navbar =====-->
-
-</header>
-
-<!--========== 
-	End of header ==========-->
-
-
-<!--========== 
-	Start of banner section ==========-->
-
-<section class="banner-portfolio bg-fit position-relative">
-	<div class="position-absolute top-0 end-0 mt-9 me-9">
-		<div class="bg-pink-gradient blur-01 rounded-circle h-500 w-500">
-		</div>
-	</div>
-	<div class="container">
-
-		<!--===== Start of row =====-->
-		<div class="row position-relative align-items-center">
-			<div class="col-lg-5 mb-lg-0 mb-5">
-				<h1 class="display-2 my-4"> <span class="text-pink-gradient"> My name's Roni </span> <br> Developer and Blogger.</h1>
-				<!-- <p class="text-black">Optio accusamus molestias quod delectus laudantium consequuntur minima hic, expedita, magnam quasi molestiae non ad.</p> -->
-			</div>
-			<div class="col-lg-6 offset-lg-1">
-				<img class="img-fluid rounded-circle" src="images/noimage.gif" alt="">
-			</div>
-		</div>
-		<!--===== End of row =====-->
-
-	</div>
-</section>
-
-<!--========== 
-	End of banner section ==========-->
-
-
-<!--========== 
-	Start of about section ==========-->
-
-<!-- <section class="slice-ptb bg-pink-soft-004">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5 mb-4 mb-md-0">
-				<span class="text-black">How is work</span>
-				<h2 class="mt-3">Don’t wait. The time will never be just right.</h2>
-			</div>
-			<div class="col-md-5 offset-lg-2">
-				<div class="d-flex align-items-center">
-					<h2 class="display-2 mb-0">06</h2>
-					<div class="ms-4">
-						<h6>Design award so far</h6>
-					</div>
-				</div>
-				<hr>
-				<div class="d-flex align-items-center">
-					<h2 class="display-2 mb-0">22</h2>
-					<div class="ms-4">
-						<h6>Illustrations Winners</h6>
-					</div>
-				</div>
-				<hr>
-				<div class="d-flex align-items-center">
-					<h2 class="display-2 mb-0">56</h2>
-					<div class="ms-4">
-						<h6>Total projects complete</h6>
-					</div>
-				</div>
-			</div>
-		</div>
-		 
-	</div>
-</section> -->
-
-<!--========== 
-	End of about section ==========-->
-
-
-<!--========== 
-	Start of skills section ==========-->
-
-<section class="slice-ptb position-relative">
-	<div class="container">
-
-		<!--===== Start of row =====-->
-		<div class="row  align-items-center position-relative">
-			<div class="col-md-6 col-lg-5 mb-5 mb-lg-0">
-				<img class="img-fluid box-shadow-pink" src="images/noimage2.png" alt="">
-			</div>
-			<div class="col-md-6 col-lg-5 offset-lg-1">
-				<div class="mb-5">
-					<span class="text-black">Our skills</span>
-					<h2 class="mt-3">I’m using the top best design methods in my work.</h2>
-				</div>
-
-				<!--===== Start of progress item =====-->
-				<div class="progress-item mb-4">
-					<div class="d-flex mb-2">
-						<strong class="progress-title text-dark">HTML5</strong>
-						<span class="progress-valu ms-auto text-dark">78%</span>
-					</div>
-					<div class="progress" style="height: 6px;">
-						<div class="progress-bar bg-pink-gradient" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-				</div>
-				<!--===== End of progress item =====-->
-
-				<!--===== Start of progress item =====-->
-				<div class="progress-item mb-4">
-					<div class="d-flex mb-2">
-						<strong class="progress-title text-dark">Wordpress</strong>
-						<span class="progress-valu ms-auto text-dark">64%</span>
-					</div>
-					<div class="progress" style="height: 6px;">
-						<div class="progress-bar bg-pink-gradient" role="progressbar" style="width: 64%" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-				</div>
-				<!--===== End of progress item =====-->
-
-				<!--===== Start of progress item =====-->
-				<div class="progress-item">
-					<div class="d-flex mb-2">
-						<strong class="progress-title text-dark">Javascript</strong>
-						<span class="progress-valu ms-auto text-dark">95%</span>
-					</div>
-					<div class="progress" style="height: 6px;">
-						<div class="progress-bar bg-pink-gradient" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-				</div>
-				<!--===== End of progress item =====-->
-			</div>
-		</div>
-		<!--===== End of row =====-->
-		
-	</div>
-</section>
-
-<!--========== 
-	End of skills section ==========-->
-
-
-<!--========== 
-	Start of portfolio section ==========-->
-
-<section class="slice-ptb bg-pink-soft-004 position-relative overflow-hidden">
-	<div class="position-absolute bottom-0 start-0 mt-9 me-9">
-		<div class="bg-pink-gradient blur-01 rounded-circle h-500 w-500">
-		</div>
-	</div>
-	<div class="container">
-
-		<!--===== Start of row =====-->
-		<div class="row justify-content-center">
-			<div class="col-lg-5">
-				<div class="mb-5 text-center">
-					<span class="text-black">How is work</span>
-					<h2 class="mt-3">Have a project in mind? Let’s build it.</h2>
-				</div>
-			</div>
-		</div>
-
-		<!--===== End of row =====-->
-		<div class="row">
-			<div class="col-12">
-				<div class="grid portfolio-column-4 popup-container grid-spacing-30">
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/01.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Art unlimited</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Creative,</a></li>
-									<li><a href="#">Illustration</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/02.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Studio magic</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Graphic,</a></li>
-									<li><a href="#">Design</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/03.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Brilliant brushes</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Photography,</a></li>
-									<li><a href="#">Music</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/04.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Superb studios</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Clients,</a></li>
-									<li><a href="#">Magazine</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/05.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Creative business work</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Projects,</a></li>
-									<li><a href="#">Creative</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/06.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>A day with Sunshine</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Illustration,</a></li>
-									<li><a href="#">Branding</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/01.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Business work</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Creative,</a></li>
-									<li><a href="#">Illustration</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-					
-					<!--===== Start of portfolio =====-->
-					<div class="grid-item">
-						<div class="portfolio-item-scattered">
-							<div class="portfolio-item-image">
-								<img class="img-fluid" src="images/portfolio/scattered/02.jpg" alt="">
-							</div>
-							<div class="portfolio-item-caption">
-								<a class="d-flex align-items-center" href="#"> <span>Cover letter</span> </a>
-								<ul class="list-unstyled portfolio-item-category">
-									<li><a href="#">Graphic,</a></li>
-									<li><a href="#">Design</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!--===== End of portfolio =====-->
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--========== 
-	End of portfolio section ==========-->
-
-
-<!--========== 
-	Start of testimonials section ==========-->
-
-<section class="slice-ptb">
-	<div class="container">
-
-		<!--===== Start of row =====-->
-		<div class="row align-items-center">
-			<div class="col-lg-5">
-				<div class="mb-5">
-					<span class="text-black">How is work</span>
-					<h2 class="mt-3">A magical and revolutionary device at an unbelievable.</h2>
-				</div>
-			</div>
-			<div class="col-lg-4 offset-lg-3">
-				<div class="bg-pink-soft-004 py-4 px-5 rounded text-end mb-5">
-					<h2>4,8</h2>
-					<ul class="d-flex fs-2 text-warning justify-content-end">
-						<li> <i class="fas fa-star"></i> </li>
-						<li> <i class="fas fa-star"></i> </li>
-						<li> <i class="fas fa-star"></i> </li>
-						<li> <i class="fas fa-star"></i> </li>
-						<li> <i class="fas fa-star"></i> </li>
-					</ul>
-					<p>Average of our clients ratings</p>
-				</div>
-			</div>
-		</div>
-		<!--===== End of row =====-->
-
-		<div class="position-relative">
-			<div class="position-absolute top-50 start-0 translate-middle-y d-none d-lg-block">
-				<img class="img-fluid rounded-circle avatar-60" src="images/avatar/01.jpg" alt="">
-			</div>
-			<div class="position-absolute top-100 start-0 translate-middle d-none d-lg-block">
-				<img class="img-fluid rounded-circle avatar-40" src="images/avatar/02.jpg" alt="">
-			</div>
-			<div class="position-absolute bottom-0 end-0 d-none d-lg-block">
-				<img class="img-fluid rounded-circle avatar-90" src="images/avatar/03.jpg" alt="">
-			</div>
-			<div class="position-absolute top-0 end-0 me-9 mt-8 d-none d-lg-block">
-				<div class="bg-pink-gradient blur-01 rounded-circle h-200 w-200">
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-7">
-					<div class="swiper-container" data-slidesPerView="1" data-tablet-slidesPerView="1" data-mobile-slidesPerView="1" data-spaceBetween="20" data-loop="true" data-autoplay="true" data-auto-speed="2500" data-disable-on-touch="false" data-dots="true" data-auto-height="false" data-pagination="true" data-navigation="true" >
-						<div class="swiper-wrapper">
-
-							<!--===== Start of testimonials item =====-->
-							<div class="swiper-slide my-4">
-								<div class="p-5 rounded mt-4 text-center">
-									<div class="position-absolute top-50 start-0 translate-middle-y z-index-n1">
-										<img class="img-fluid" src="images/svg/quotation.svg" alt="">
-									</div>
-									<img class="img-fluid rounded-circle avatar-70" src="images/avatar/01.jpg" alt="">
-									<div class="mt-3 mb-4">
-										
-										<h6 class="mb-0"><a class="text-pink-gradient" href="#">Lewis Bass</a></h6>
-										<small class="d-block">by @google play</small>
-										<ul class="d-flex text-warning mb-0 justify-content-center mt-3">
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-										</ul>
-									</div>
-									<div class="mb-2">
-										<p class="lead text-black">There's no committee that says, 'This is the type of person who can change the world--and you can't.' Realizing that anyone can do it is the first step. The next step is figuring out how you're going to do it....”</p>
-									</div>
-									
-								</div>
-							</div>
-							<!--===== End of testimonials item =====-->
-
-							<!--===== Start of testimonials item =====-->
-							<div class="swiper-slide my-4">
-								<div class=" p-5 rounded mt-4 text-center">
-									<div class="position-absolute top-50 start-0 translate-middle-y z-index-n1">
-										<img class="img-fluid" src="images/svg/quotation.svg" alt="">
-									</div>
-									<img class="img-fluid rounded-circle avatar-70" src="images/avatar/02.jpg" alt="">
-									<div class="mt-3 mb-4">
-										<h6 class="mb-0"><a class="text-pink-gradient" href="#">Jerome Mayo</a></h6>
-										<small class="d-block">by @slack</small>
-										<ul class="d-flex text-warning mb-0 justify-content-center mt-3">
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-										</ul>
-									</div>
-									<div class="mb-2">
-										<p class="lead text-black">If you've got an idea, start today. There's no better time than now to get going. That doesn't mean quit your job and jump into your idea 100% from day one, but there's always small progress that can be made...”</p>
-									</div>
-									
-								</div>
-							</div>
-							<!--===== End of testimonials item =====-->
-
-							<!--===== Start of testimonials item =====-->
-							<div class="swiper-slide my-4">
-								<div class=" p-5 rounded mt-4 text-center">
-									<div class="position-absolute top-50 start-0 translate-middle-y z-index-n1">
-										<img class="img-fluid" src="images/svg/quotation.svg" alt="">
-									</div>
-									<img class="img-fluid rounded-circle avatar-70" src="images/avatar/03.jpg" alt="">
-									<div class="mt-3 mb-4">
-										<h6 class="mb-0"><a class="text-pink-gradient" href="#">Naima Haley</a></h6>
-										<small class="d-block">by @skype</small>
-										
-										
-										<ul class="d-flex text-warning mb-0 justify-content-center mt-3">
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-											<li> <i class="fas fa-star"></i> </li>
-										</ul>
-									</div>
-									<div class="mb-2">
-										<p class="lead text-black">People are always blaming their circumstances for what they are, the people who get on in the world are the people who get up and look for the circumstances that they want and if they can't find them, make them....”</p>
-									</div>
-									
-								</div>
-							</div>
-							<!--===== End of testimonials item =====-->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--========== 
-	End of testimonials section ==========-->
-
-
-<!--========== 
-  Start of Blog section ==========-->
-
-<section class="slice-ptb bg-pink-soft-004">
-  <div class="container">
-     <div class="row mb-5 mb-sm-0">
-      <div class="col-sm-6">
-        <div class="mb-4 mb-sm-5">
-          <h6 class="text-pink-gradient">A MOMENT OF FIT</h6>
-          <h2>Our latest articles  </h2>
-        </div>
-      </div>
-      <div class="col-sm-6 text-sm-end">
-        <a class="btn btn-gradient-02 rounded" href="#">View more blogs</a>
+  <!-- Skills Section -->
+  <section class="py-16 bg-gray-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Tech Arsenal</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-gray-700 px-4 py-2 rounded">Node.js</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">Prisma</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">Django</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">Docker</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">OpenCV</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">YOLO</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">TensorFlow</span>
+        <span class="bg-gray-700 px-4 py-2 rounded">TailwindCSS</span>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
+  </section>
 
-        <!--===== Start of blog =====-->
-        <div class="blog-post shadow-none">
-          <div class="blog-image">
-            <img class="img-fluid" src="images/blog/01.jpg" alt="">
-            <div class="blog-meta-comments">
-              <a class="blog-like" href="#"> <i class="feather icon-heart pe-1"></i> 25 </a>
-              <a class="blog-comments" href="#"> <i class="feather icon-message-circle pe-1"></i> 12 </a>
-            </div>
-          </div>
-          <div class="blog-caption">
-           <ul class="blog-meta list-unstyled mb-3">
-              <li> <a class="text-pink-gradient" href="#">fitness,</a> </li>
-              <li> <a class="text-pink-gradient" href="#">workout</a> </li>
-            </ul>
-            <h5 class="mb-3"><a href="#">People who are crazy enough to think they can change the world.</a></h5>
-          </div>
-        </div>
-        <!--===== End of blog =====-->
-
-      </div>
-      <div class="col-md-4">
-
-        <!--===== Start of blog item =====-->
-        <div class="blog-post shadow-none">
-          <div class="blog-image">
-            <img class="img-fluid" src="images/blog/02.jpg" alt="">
-            <div class="blog-meta-comments">
-              <a class="blog-like" href="#"> <i class="feather icon-heart pe-1"></i> 25 </a>
-              <a class="blog-comments" href="#"> <i class="feather icon-message-circle pe-1"></i> 12 </a>
-            </div>
-          </div>
-          <div class="blog-caption">
-            <ul class="blog-meta list-unstyled mb-3">
-              <li> <a class="text-pink-gradient" href="#">yoga,</a> </li>
-              <li> <a class="text-pink-gradient" href="#">music</a> </li>
-            </ul>
-            <h5 class="mb-3"><a href="#"> You learn more from failure than from success. don’t let it stop you.</a></h5>
-          </div>
-        </div>
-        <!--===== End of blog item =====-->
-
-      </div>
-      <div class="col-md-4">
-
-        <!--===== Start of blog item =====-->
-        <div class="blog-post shadow-none">
-          <div class="blog-image">
-            <img class="img-fluid" src="images/blog/03.jpg" alt="">
-            <div class="blog-meta-comments">
-              <a class="blog-like" href="#"> <i class="feather icon-heart pe-1"></i> 25 </a>
-              <a class="blog-comments" href="#"> <i class="feather icon-message-circle pe-1"></i> 12 </a>
-            </div>
-          </div>
-          <div class="blog-caption">
-            <ul class="blog-meta list-unstyled mb-3">
-              <li> <a class="text-pink-gradient" href="#">health,</a> </li>
-              <li> <a class="text-pink-gradient" href="#">cardio</a> </li>
-            </ul>
-            <h5 class="mb-3"><a href="#">If you are working on something that you really care about, you don’t.</a></h5>
-          </div>
-        </div>
-        <!--===== End of blog item =====-->
-
+  <!-- Projects Section -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Latest Projects</h2>
+      <div id="projects" class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-gray-200">
+        <!-- Projects from GitHub API will appear here -->
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!--========== 
-  End of blog section ==========-->
-   
+  <!-- Contact Section -->
+  <section class="py-16 bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-gray-400 mb-8">Open for collaborations, freelance work, and exciting tech challenges.</p>
+    <div class="flex justify-center gap-4">
+      <a href="https://github.com/roniahmadi" class="px-6 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg">GitHub</a>
+      <a href="https://linkedin.com/in/roniahmadi" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg">LinkedIn</a>
+      <a href="mailto:roni@example.com" class="px-6 py-3 bg-red-500 hover:bg-red-600 rounded-lg">Email</a>
+    </div>
+  </section>
 
-<!--========== 
-	Start of footer section ==========-->
+  <script>
+    // GitHub username
+    const username = "roniahmadi";
 
-<footer class="footer bg-black slice-pt">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 col-lg-4 mb-4 mb-sm-0">
-				<a href="index.html"> <img class="footer-logo" src="images/logo-icon.svg" alt=""> </a>
-				<h5 class="text-white mt-5">(62) 815-5677-6939</h5>
-				<h3 class="text-white mt-4">roniahmadi30@gmail.com</h3>
-			</div>
-			<div class="col-sm-6 col-lg-4 offset-lg-2">
-				<h2 class="text-white display-2 mb-4">Let's talk!</h2>
-				<p class="lead">Yuk diskusi tentang teknologi dunia IT.</p>
-				<div class="social-icons icons-xl mt-5">
-					<a class="icon text-white" href="https://www.facebook.com/ahmad.ahmad.roni/"> <i class="fab fa-facebook-f"></i> </a>
-					<a class="icon text-white" href="https://twitter.com/_roniahmadi"> <i class="fab fa-twitter"></i> </a>
-					<a class="icon text-white" href="https://www.instagram.com/roniahmadi.id/"> <i class="fab fa-instagram"></i> </a>
-				</div>
-			</div>
-		</div>
-		<hr class="mt-7">
-		<div class="row text-center">
-			<div class="col-12">
-				<p class="text-white mt-3 mb-4 pe-6">© 2020 <a target="_blank" class="text-pink-gradient" href="https://www.infinitysoftway.com/">infinitysoftway </a>all right reserved</p>
-			</div>
-		</div>
-	</div>
-</footer>
+    async function loadProjects() {
+      const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`);
+      const repos = await response.json();
+      const projectsContainer = document.getElementById("projects");
 
-<!--========== 
-	End of footer section ==========-->
+      repos.forEach(repo => {
+        const projectCard = document.createElement("div");
+        projectCard.className = "bg-gray-800 rounded-lg overflow-hidden shadow-lg p-4";
 
+        projectCard.innerHTML = `
+          <h3 class="text-xl font-bold mb-2">${repo.name}</h3>
+          <p class="text-gray-400 mb-4">${repo.description || "No description provided."}</p>
+          <a href="${repo.html_url}" target="_blank" class="text-red-400 hover:underline">View on GitHub</a>
+        `;
+        projectsContainer.appendChild(projectCard);
+      });
+    }
 
-<!--========== 
-	Start of back to top section ==========-->
-
-<div class="go-top">
-	<p class="go-top-text">Scroll to top <i class="fas fa-long-arrow-alt-right ps-2"></i></p>
-</div>
-
-<!--========== 
-	End of back to top section ==========-->
-
-<!--========== 
-	Start of Javascript ==========-->
-
-	<!--===== Global required js =====-->
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap/bootstrap.min.js"></script>
-
-	<!--===== Global script: js libraries and plugins =====-->
-	<script src="js/appear/jquery.appear.js"></script>
-	<script src="js/swiper/swiper.min.js"></script>
-	<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="js/isotope/isotope.pkgd.min.js"></script>
-	<script src="js/typer/typer.js"></script>
-  <script src="js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
-  <script src="js/jarallax/jarallax.min.js"></script>
-
-  <!--===== Main theme script =====-->
-  <script src="js/functions.js"></script>
-
-  <!--========== 
-	End of Javascript ==========-->
-
+    loadProjects();
+  </script>
 </body>
 </html>
